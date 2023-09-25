@@ -1,0 +1,36 @@
+{
+  "name": "tldraw-ext",
+  "version": "1.0.0",
+  "description": "an extension for tldraw a collaborative digital whiteboard",
+  "main": "main.js",
+  "scripts": {
+    "dev": "webpack --mode development",
+    "build": "webpack --mode production "
+  },
+  "keywords": [
+    "tldraw",
+    "extension"
+  ],
+  "author": "Aaron Santos",
+  "license": "ISC",
+  "dependencies": {
+    "typescript": "^5.2.2"
+  },
+  "devDependencies": {
+    "@extpkg/types-console": "^1.0.1",
+    "@extpkg/types-runtime": "^1.2.1",
+    "@extpkg/types-tabs": "^1.1.0",
+    "@extpkg/types-websessions": "^1.0.1",
+    "@extpkg/types-webviews": "^1.0.2",
+    "@extpkg/types-windows": "^1.1.0",
+    "@typescript-eslint/eslint-plugin": "^6.5.0",
+    "@typescript-eslint/parser": "^6.5.0",
+    "copy-webpack-plugin": "^11.0.0",
+    "eslint": "^8.48.0",
+    "ts-loader": "^9.4.4",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2",
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4"
+  }
+}
