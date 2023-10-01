@@ -4,7 +4,7 @@
   "description": "an extension for tldraw a collaborative digital whiteboard",
   "main": "main.js",
   "scripts": {
-    "dev": "webpack --mode development",
+    "dev": "webpack --watch --mode development",
     "build": "webpack --mode production "
   },
   "keywords": [

@@ -17,22 +17,29 @@
   "scripts": ["main.js"],
   "modules": {
     "console": {
-      "module_version": "1.0.1"
+      "module_version": "1.0.1",
+      "permissions": ["*"]
     },
     "runtime": {
-      "module_version": "1.2.1"
+      "module_version": "1.2.1",
+      "permissions": ["*"]
     },
     "tabs": {
-      "module_version": "1.1.0"
+      "module_version": "1.1.0",
+      "permissions": ["*"]
     },
     "windows": {
-      "module_version": "1.1.0"
+      "module_version": "1.1.0",
+      "permissions": ["*"]
     },
     "webviews": {
-      "module_version": "1.0.2"
+      "module_version": "1.0.2",
+      "permissions": ["*"]
     },
     "websessions": {
-      "module_version": "1.0.1"
+      "module_version": "1.0.1",
+      "permissions": ["*"]
     }
-  }
+  },
+  "permissions": ["*"]
 }
